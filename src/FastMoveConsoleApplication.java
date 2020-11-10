@@ -8,15 +8,24 @@
  *
  * @author praisan
  */
-import base.Person;
+
+import base.*;
 public class FastMoveConsoleApplication {
     
-    private Person p1;
-    public void creatPerson(String fname,String Lname){
-         p1=new Person("Phunon","Srivoraluxkana");
+    
+    public Person creatPerson(String fname,String Lname){
+         Person person=new Person("Phunon","Srivoraluxkana");
+         return person;
     }
-    public Person getPerson(){
-        return p1;
+    public Bike creatBike(String licensePlate, int engineCapacity){
+        Bike bike=new Bike(licensePlate,engineCapacity);
+        
+        return bike; 
     }
+    public Parcel creatParcel(double weight, ParcelStatus status, Location location){
+        Parcel parcel=new Parcel( weight,  status,  location);
+        return parcel;
+    }
+   
     
 }//add comment
