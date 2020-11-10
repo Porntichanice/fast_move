@@ -26,6 +26,9 @@ public class FastMoveConsoleApplication {
         Parcel parcel=new Parcel( weight,  status,  location);
         return parcel;
     }
+    public void sayHello(){
+        System.out.println("Hello");
+    }
    
     
 }//add comment
