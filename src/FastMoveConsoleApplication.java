@@ -19,4 +19,4 @@ public class FastMoveConsoleApplication {
         return p1;
     }
     
-}
+}//add comment
