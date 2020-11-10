@@ -11,6 +11,9 @@ public class ToyData {
     public static Bike[] getBikes() {
         Bike[] bikes = new Bike[3];
         // your code
+        for(int i=0;i<bikes.length ;i++){
+            bikes[i]=new Bike("00",22);
+        }
 //        for(int i=0;i<bikes.length;i++){
 //            bikes[i]=new Bike("000"+String.valueOf(i+1),1200+i*100);
 //        }
@@ -40,8 +43,8 @@ public class ToyData {
 
     //testing
     public static void main(String[] args) {
-//     //   printBike();
-        printPerson();
+        printBike();
+//        printPerson();
 //        printParcels();
     }
 
